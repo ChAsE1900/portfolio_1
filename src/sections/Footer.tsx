@@ -19,18 +19,17 @@ export const Footer = () => {
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
           <div className="text-white/40">&copy; 2024. All rights reserved.</div>
           <nav className="flex flex-col items-center md:flex-row gap-8">
-            {footerLinks.map(link => (
-              <button>
-              <a
-                href={link.href}
-                key={link.title}
-                target="_blank"        // Opens the link in a new tab
-                rel="noopener noreferrer" // Adds security to external links
-                className="inline-flex items-center gap-1.5 text-white/90 hover:text-white transition-all duration-300"
-              >
-                <span className="font-semibold">{link.title}</span>
-                <ArrowUpIcon className="w-4 h-4" />  {/* Ensure proper size of the icon */}
-              </a>
+            {footerLinks.map((link) => (
+              <button key={link.title}> {/* Add key here */}
+                <a
+                  href={link.href}
+                  target="_blank" // Opens the link in a new tab
+                  rel="noopener noreferrer" // Adds security to external links
+                  className="inline-flex items-center gap-1.5 text-white/90 hover:text-white transition-all duration-300"
+                >
+                  <span className="font-semibold">{link.title}</span>
+                  <ArrowUpIcon className="w-4 h-4" /> {/* Ensure proper size of the icon */}
+                </a>
               </button>
             ))}
           </nav>

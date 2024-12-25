@@ -67,7 +67,7 @@ export const HeroSection = () => {
         <div className="max-w-lg mx-auto">
         <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Building Exceptional User Experiences</h1>
         <p className="mt-4 text-center text-white/60 md:text-large">
-        “I’m a passionate developer focused on creating exceptional user experiences. With a strong background in both front-end and back-end technologies, I design and build responsive, interactive websites and applications that solve real-world problems. Explore my work and see how I bring ideas to life through code and creativity.”
+        “Im a passionate developer focused on creating exceptional user experiences. With a strong background in both front-end and back-end technologies, I design and build responsive, interactive websites and applications that solve real-world problems. Explore my work and see how I bring ideas to life through code and creativity.”
         </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -77,7 +77,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
-            <span className="font-semibold cursor-pointer">Let's Connect</span>
+            <span className="font-semibold cursor-pointer">Lets Connect</span>
           </button>
         </div>
       </div>
